@@ -8,8 +8,6 @@ const Admin = () => {
   return (
     <div className='admin'>
         <Sidebar />
-        <AddProduct />
-        <ListProduct />
         <Routes>
           <Route path='/addproduct' element={<AddProduct />} />
           <Route path='/listproduct' element={<ListProduct />} />
